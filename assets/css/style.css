@@ -1,0 +1,65 @@
+body {
+	background-image: url(../images/wrigley-field.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Vollkorn', serif;
+	text-shadow: 3px 3px 3px black;
+	margin-top: 40px;
+}
+
+p {
+	font-size: 22px;
+	padding: 15px;
+}
+
+#instructions {
+	padding: 20px;
+}
+
+.trans {
+	margin-top: 80px;
+	background: rgba(0,0,0,.5);
+	border-radius: 30px;
+}
+
+.timeLeft {
+	padding-top: 10px;
+	margin-bottom: -25px;
+}
+
+.section {
+	font-size: 22px;
+	padding: 5px;
+	margin: 25px 100px 0px 100px;
+}
+
+#startClock,
+#submitResult {
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 3px black;
+}
+
+#submitResult {
+	margin-top: 30px;
+}
+
+#results {
+	font-size: 28px;
+	padding-bottom: 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
